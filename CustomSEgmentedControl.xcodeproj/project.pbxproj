@@ -12,6 +12,10 @@
 		5AF4582B2010949F00BEB00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF458292010949F00BEB00E /* Main.storyboard */; };
 		5AF4582D2010949F00BEB00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF4582C2010949F00BEB00E /* Assets.xcassets */; };
 		5AF458302010949F00BEB00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF4582E2010949F00BEB00E /* LaunchScreen.storyboard */; };
+		5AF45838201094DA00BEB00E /* CustomSegmentedContrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF45837201094DA00BEB00E /* CustomSegmentedContrl.swift */; };
+		5AF4583A2010AC0300BEB00E /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF458392010AC0300BEB00E /* VC1.swift */; };
+		5AF4583C2010AC0D00BEB00E /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4583B2010AC0D00BEB00E /* VC2.swift */; };
+		5AF4583E2010AC1600BEB00E /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF4583D2010AC1600BEB00E /* VC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5AF4582C2010949F00BEB00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF4582F2010949F00BEB00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF458312010949F00BEB00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF45837201094DA00BEB00E /* CustomSegmentedContrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedContrl.swift; sourceTree = "<group>"; };
+		5AF458392010AC0300BEB00E /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		5AF4583B2010AC0D00BEB00E /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		5AF4583D2010AC1600BEB00E /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				5AF458252010949F00BEB00E /* AppDelegate.swift */,
 				5AF458272010949F00BEB00E /* ViewController.swift */,
+				5AF45837201094DA00BEB00E /* CustomSegmentedContrl.swift */,
 				5AF458292010949F00BEB00E /* Main.storyboard */,
 				5AF4582C2010949F00BEB00E /* Assets.xcassets */,
 				5AF4582E2010949F00BEB00E /* LaunchScreen.storyboard */,
 				5AF458312010949F00BEB00E /* Info.plist */,
+				5AF458392010AC0300BEB00E /* VC1.swift */,
+				5AF4583B2010AC0D00BEB00E /* VC2.swift */,
+				5AF4583D2010AC1600BEB00E /* VC3.swift */,
 			);
 			path = CustomSEgmentedControl;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF4583E2010AC1600BEB00E /* VC3.swift in Sources */,
 				5AF458282010949F00BEB00E /* ViewController.swift in Sources */,
 				5AF458262010949F00BEB00E /* AppDelegate.swift in Sources */,
+				5AF4583C2010AC0D00BEB00E /* VC2.swift in Sources */,
+				5AF4583A2010AC0300BEB00E /* VC1.swift in Sources */,
+				5AF45838201094DA00BEB00E /* CustomSegmentedContrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = Q783J47277;
 				INFOPLIST_FILE = CustomSEgmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssss.CustomSEgmentedControl;
@@ -290,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = Q783J47277;
 				INFOPLIST_FILE = CustomSEgmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssss.CustomSEgmentedControl;
